@@ -83,10 +83,6 @@ int main(void) {
 		}
 	}
 
-	if (sum > 9 && sum != 11 && sum != 22 && sum != 33) {
-		sum = sum / 10 + sum % 10;
-	}
-
 	printf("%d\n", sum);
 
 	free(line);
